@@ -72,3 +72,19 @@ body {
 .subheading {
   margin: 0;
 }
+.description-video-container{
+  display: flex;
+
+}
+.col{
+  display: flex;
+  flex-direction: column;
+
+}
+h4{
+  margin:0;
+}
+.row{
+  display: flex;
+  flex:1;
+}
