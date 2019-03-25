@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.nav {
+  position: static;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 8px 24px 8px 24px;
+}
+
+.icon {
+  color: grey;
+  margin: 8px;
+}
+
+.youtube-icon {
+  color: red;
+}
+
+.buttons-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

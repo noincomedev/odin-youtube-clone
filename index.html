@@ -5,10 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>EMBEDDING IMAGES AND VIDEO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <script src="main.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>IMAGES AND VIDEO</h1>
+    <div class="nav">
+      <i id="hamburger" class="fas fa-bars fa-2x icon"></i>
+      <span class="logo-container">
+        <i class="fab fa-youtube youtube-icon fa-2x"></i>
+        <h3>YouTube</h3>
+      </span>
+      <span class="search-container">
+        <input type="text" placeholder="Buscar" style="width: 66%" />
+        <i class="fas fa-search icon"></i>
+      </span>
+      <div class="buttons-container">
+        <i class="fas fa-video icon"></i>
+        <i class="fas fa-th icon"></i>
+        <i class="fas fa-bell icon"></i>
+        <i class="fas fa-comment icon"></i>
+        <i class="fas fa-user icon"></i>
+      </div>
+    </div>
+
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8LhkyyCvUHk"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
   </body>
 </html>
