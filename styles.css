@@ -1,7 +1,6 @@
 body {
   margin: 0;
   max-width: 100%;
-  background-color: lightgray;
 }
 
 .nav {
@@ -11,6 +10,7 @@ body {
   flex: 1;
   align-items: center;
   padding: 8px 24px 8px 24px;
+  border-bottom: 4px lightgray solid;
 }
 
 .icon {
@@ -72,19 +72,40 @@ body {
 .subheading {
   margin: 0;
 }
-.description-video-container{
+.description-video-container {
   display: flex;
-
 }
-.col{
+.col {
   display: flex;
   flex-direction: column;
+}
 
+p {
+  margin: 0;
 }
-h4{
-  margin:0;
+
+h4 {
+  margin: 0;
 }
-.row{
+.row {
   display: flex;
-  flex:1;
+  flex: 1;
+}
+
+.video-buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.video-button-item {
+  color: grey;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px 0px 16px;
+}
+
+#video-name {
+  margin-top: 16px;
+  font-size: 1.33rem;
 }
